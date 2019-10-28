@@ -11,7 +11,7 @@ I'm using a simplfied code than what the article goes through in some respect su
   - No evaluation
   
  I also added some changes to the coda from the article:
-  - When I crop the images I took out some seemingly unnecessary calculations and I also save these cropped images. I do this because cropping out the new images can take quite a while and simply loading them up from a new folder is faster. One was to improve this even more would be to use a generator.
+  - When I crop the images I took out some seemingly unnecessary calculations and I also save these cropped images. I do this because cropping out the new images can take quite a while and simply loading them up from a new folder is faster. One way to improve this even more would be to use a generator.
 Added reloading of the model weight before training so after kernel restart I continue from where I left off. Now that I understand the code better I would like to try out the features I left out (spectral normalization, evaluation) and also try out new datasets. I'd also like to spend some time later tuning the Hyperparameters more.
 
 Below you can see some of the pictures the model generated after some training:
